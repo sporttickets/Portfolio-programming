@@ -27,14 +27,14 @@ def feed(pet):
   else:
     print 'The Pypet is not hungry!'
 
-#for pet in pets:
-    print '------------------------------'
-    print 'Hello ' + pet['name'] + '!'
-    print pet['photo']
-    print 'Weight: ' + str(pet['weight'])
-    feed(pet)
-    print 'Weight: ' + str(pet['weight'])
-    print '------------------------------'
+for pet in pets:
+    #print '------------------------------'
+    #print 'Hello ' + pet['name'] + '!'
+    #print pet['photo']
+    #print 'Weight: ' + str(pet['weight'])
+    #eed(pet)
+    #print 'Weight: ' + str(pet['weight'])
+    #print '------------------------------'
 
 print cat
 feed(cat)
