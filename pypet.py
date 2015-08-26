@@ -27,7 +27,7 @@ def feed(pet):
   else:
     print 'The Pypet is not hungry!'
 
-for pet in pets:
+#for pet in pets:
     print '------------------------------'
     print 'Hello ' + pet['name'] + '!'
     print pet['photo']
